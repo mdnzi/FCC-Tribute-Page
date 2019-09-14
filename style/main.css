@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  padding: 50px 0px;
+}
+
+#title {
+  font-family: "Montserrat", Arial;
+  font-weight: black;
+  justify-self: center;
+}
+
+#img-div {
+  width: 482px;
+  height: auto;
+  margin: 0 auto;
+}
+
+#image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+#tribute-info {
+  font-family: "Montserrat", Arial;
+  font-size: 16px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.movies-list {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
+.movies-list h2 {
+  font-family: "Montserrat", Arial;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-gap: 10px;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 50px;
+  width: 100%;
+  font-family: "Montserrat", Arial;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: black;
+}
